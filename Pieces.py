@@ -58,6 +58,10 @@ class Pawn(Piece):
 
     def allMoves(self):
        return self.pawnMove()
+       
+     
+     
+     
     
     def __str__(self):
         return "{} {}".format(self.color,PieceName.PWAN)
